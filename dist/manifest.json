@@ -1,0 +1,69 @@
+{
+  "name": "Ticket Field Manager",
+  "author": {
+    "name": "Zendesk Services",
+    "email": "services@zendesk.com"
+  },
+  "parameters":[
+    {
+      "name": "required_fields",
+      "type": "multiline"
+    },
+    {
+      "name": "required_fields_whitelist_tags",
+      "type": "text"
+    },
+    {
+      "name": "required_fields_whitelist_group_ids",
+      "type": "text"
+    },
+    {
+      "name": "required_fields_whitelist_organization_ids",
+      "type": "text"
+    },
+    {
+      "name": "hidden_fields",
+      "type": "multiline"
+    },
+    {
+      "name": "hidden_fields_whitelist_tags",
+      "type": "text"
+    },
+    {
+      "name": "hidden_fields_whitelist_group_ids",
+      "type": "text"
+    },
+    {
+      "name": "hidden_fields_whitelist_organization_ids",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields",
+      "type": "multiline"
+    },
+    {
+      "name": "readonly_fields_whitelist_tags",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields_whitelist_group_ids",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields_whitelist_organization_ids",
+      "type": "text"
+    }
+  ],
+  "defaultLocale": "en",
+  "private": true,
+  "noTemplate": true,
+  "version": "1.4",
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html",
+      "new_ticket_sidebar": "assets/iframe.html"
+    }
+  },
+  "frameworkVersion": "2.0"
+}
+  
